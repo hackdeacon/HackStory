@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "黑衣执事",
   description: "hackdeacon",
+  cleanUrls: true,
   head: [
     ['link', {rel: 'icon', href: 'https://bu.dusays.com/2024/01/28/65b5fcbaa0b2c.png'}]
   ],
