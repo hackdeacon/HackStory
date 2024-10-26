@@ -5,7 +5,7 @@ export default defineConfig({
   title: "黑衣执事",
   description: "hackdeacon",
   cleanUrls: true,
-  lang: zh,
+  lang: 'zh',
   head: [
     ['link', {rel: 'icon', href: 'https://bu.dusays.com/2024/01/28/65b5fcbaa0b2c.png'}]
   ],
