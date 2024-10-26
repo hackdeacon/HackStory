@@ -23,7 +23,7 @@ features:
     title: Photograph
     details: 我会一直记录，<br>直到有人记录我。
   - icon:
-      src: src/valorant.svg
+      src: ./src/valorant.svg
     title: Valorant
     details: 黑衣执事<br>#60895
   - icon: 🍕
