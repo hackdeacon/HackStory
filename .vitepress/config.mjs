@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "黑衣执事",
+  // titleTemplate: "用心取悦自己",
   description: "hackdeacon",
   cleanUrls: true,
   lang: 'zh',
@@ -19,15 +20,15 @@ export default defineConfig({
     },
     nav: [
       { text: '🏠', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'HackAwards', link: '/HackAwards/HackAwards2024.md' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'HackAwards',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: '2024', link: '/HackAwards/HackAwards2024.md' },
+          { text: '2025', link: '/api-examples' }
         ]
       }
     ],

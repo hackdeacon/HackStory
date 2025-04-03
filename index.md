@@ -1,6 +1,7 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
+titleTemplate: ':title - 用心取悦自己'
 
 hero:
   name: "黑胶故事"
@@ -26,19 +27,18 @@ features:
       src: /valorant.svg
     title: Valorant
     details: 黑衣执事<br>#60895
-  - icon: 🍕
-    title: X
+  - icon:
+      src: https://img.icons8.com/stickers/500/hello-kitty.png
+    title: Hack Story
     details: 黄油小熊
-  - icon: 🍕
-    title: Y
+  - icon:
+      src: https://bu.dusays.com/2023/11/14/655333577f428.png
+    title: Coding
     details: 黄油小熊
 ---
-<!-- ## Getting Started
 
-You can get started using VitePress right away using `npx`!
+## 关于本站
 
-```sh
-npm init
-npx vitepress init
-``` -->
-
+```
+HackAwards
+```
