@@ -9,7 +9,7 @@ hero:
   tagline: hackdeacon.xyz
   image: 
     # src: 'https://img.icons8.com/stickers/500/hello-kitty.png'
-    src: 'https://bu.dusays.com/2023/10/19/653138be45ba5.png'
+    src: 'https://bu.dusays.com/2025/04/03/67ee73ea07906.png'
     alt: Hello Kitty
   actions:
     - theme: brand
