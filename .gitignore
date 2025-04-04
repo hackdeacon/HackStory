@@ -1,8 +1,31 @@
-node_modules
+# Node.js 依赖
+node_modules/
+
+# macOS 系统文件
 .DS_Store
-dist
-dist-ssr
-cache
-.cache
-.temp
+
+# VitePress 相关的构建产物
+dist/
+dist-ssr/
+docs/.vitepress/cache/
+cache/
+.cache/
+.temp/
+
+# 锁文件（依赖管理工具）
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# 编辑器和系统文件
+Thumbs.db
+.idea/
+.vscode/
+
+# 可能的临时文件
+*.bak
+*.swp
+*.swo
+
+# 本地环境配置文件
 *.local

@@ -13,15 +13,14 @@ export default defineConfig({
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    // logo: 'https://img.icons8.com/stickers/500/valorant.png',
     logo: 'https://bu.dusays.com/2025/04/03/67ee34547458c.png',
     footer: {
       message: 'Hack Deacon',
       copyright: 'Happy Myself with Heart'
     },
     nav: [
-      { text: '🏠', link: '/' },
-      { text: 'HackAwards', link: '/blog/HackAwards2024' }
+      { text: '🍟', link: '/' },
+      { text: '黄油小熊', link: '/blog/HackAwards2024' }
     ],
 
     sidebar: [
