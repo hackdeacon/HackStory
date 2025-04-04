@@ -123,7 +123,7 @@
   --vp-custom-block-tip-text: var(--vp-c-text-1);
   --vp-custom-block-tip-bg: var(--vp-c-brand-soft);
   --vp-custom-block-tip-code-bg: var(--vp-c-brand-soft);
-  --vp-font-family-mono: SF Mono;
+  --vp-font-family-mono: SF Mono, ui-monospace, 'Menlo', 'Monaco', 'Consolas', 'Liberation Mono', 'Courier New', monospace;
   --vp-c-brand-1: #B8860B;
   --vp-c-brand-2: #F59E0B;
   --vp-c-brand-3: #F7374F;
