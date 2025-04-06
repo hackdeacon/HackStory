@@ -9,18 +9,18 @@ export default defineConfig({
   cleanUrls: true,
   lang: 'zh',
   head: [
-    ['link', { rel: 'icon', href: 'https://bu.dusays.com/2025/04/03/67ee34547458c.png' }]
+    ['link', { rel: 'icon', href: 'https://bu.dusays.com/2025/04/06/67f28134f3d48.png' }]
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: 'https://bu.dusays.com/2025/04/03/67ee34547458c.png',
+    logo: 'https://bu.dusays.com/2025/04/06/67f28134f3d48.png',
     footer: {
-      message: 'Hack Deacon',
+      message: 'ʜᴀᴄᴋ ᴅᴇᴀᴄᴏɴ',
       copyright: 'Happy Myself with Heart'
     },
     nav: [
       { text: '🍟', link: '/' },
-      { text: '黄油小熊', link: '/blog/HackAwards2024' }
+      { text: '🧸', link: '/blog/markdown-examples' }
     ],
 
     sidebar: [
