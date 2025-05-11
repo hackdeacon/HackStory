@@ -7,6 +7,7 @@ export default defineConfig({
   // titleTemplate: "用心取悦自己",
   description: "hackdeacon",
   cleanUrls: true,
+  lastUpdated: true,
   lang: 'zh',
   head: [
     ['link', { rel: 'icon', href: 'https://bu.dusays.com/2025/04/06/67f28134f3d48.png' }]
@@ -19,23 +20,58 @@ export default defineConfig({
       copyright: 'Happy Myself with Heart'
     },
     nav: [
-      { text: '🍟', link: '/' },
-      { text: '🧸', link: '/blog/markdown-examples' }
+      { text: 'Home', link: '/' },
+      { text: 'Posts', link: '/hack' }
     ],
 
     sidebar: [
       {
-        text: 'HackAwards',
+        text: '自媒体创作',
         collapsed: false,
         items: [
-          { text: '2024', link: '/blog/HackAwards2024' },
-          { text: '2025', link: '/api-examples' }
+          { text: '选题', link: '/hack#选题-📝' },
+          { text: '摄影', link: '/hack#摄影-📸' },
+          { text: '剪辑', link: '/hack#剪辑-🎬' },
+          { text: '运营', link: '/hack#运营-📈' },
+        ]
+      },
+      {
+        text: '开发与技术',
+        collapsed: false,
+        items: [
+          { text: '前端', link: '/hack#前端-🎨' },
+          { text: '后端', link: '/hack#后端-🛠' },
+          { text: '运维', link: '/hack#运维-⚙' },
+          { text: 'LLM', link: '/hack#llm-🤖' },
+        ]
+      },
+      {
+        text: '产品小分享',
+        collapsed: true,
+        items: [
+          { text: '数码', link: '/hack#数码-🎧' },
+          { text: '网站', link: '/hack#网站-🌐' },
+          { text: 'App', link: '/hack#app-📲' },
+        ]
+      },
+      {
+        text: '生活小记录',
+        collapsed: true,
+        items: [
+          { text: '成长', link: '/hack2' },
+          { text: '学习', link: '/blog/HackAwards2024' },
+          { text: '碎碎念', link: '/hack#我最好的朋友' },
         ]
       }
     ],
 
     socialLinks: [
       { icon: 'valorant', link: 'https://github.com/hackdeacon' }
-    ]
+    ],
+
+    editLink: {
+      pattern: 'https://github.com/hackdeacon/HackStory/edit/main/:path',
+      text: 'Edit this page on GitHub'
+    }
   }
 })

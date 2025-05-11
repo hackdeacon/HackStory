@@ -3,6 +3,7 @@
 layout: home
 titleTemplate: ':title - 用心取悦自己'
 # footer: false
+# navbar: false
 
 hero:
   name: "黑胶故事"
@@ -14,7 +15,7 @@ hero:
   actions:
     - theme: brand
       text: 作家
-      link: /blog/myBestFriend
+      link: /hack
     - theme: alt
       text: HackMusic
       link: https://music.hackdeacon.xyz/
@@ -25,17 +26,17 @@ features:
     title: 创作 📸
     details: 自媒体</br>从内容策划到剪辑
   - icon:
-      src: https://bu.dusays.com/2025/04/05/67f00d3884cf3.gif
-    title: 数码 📱
-    details: 分享产品真实体验
-  - icon:
       src: https://bu.dusays.com/2025/04/05/67f015a451133.gif
-    title: 学习 💻
-    details: 前端技术 & 后端开发
+    title: 技术 💻
+    details: 产品开发</br>从调研到开发到上线
+  - icon:
+      src: https://bu.dusays.com/2025/04/05/67f00d3884cf3.gif
+    title: 分享 📱
+    details: 好玩有趣的小玩意
   - icon:
       src: https://bu.dusays.com/2025/04/07/67f2b4cf8c0f8.webp
-    title: 娱乐 🎮
-    details: 王者荣耀 & 无畏契约
+    title: 生活 🍟
+    details: 碎碎念
 ---
 
 <!-- <h3 align="center">欢迎来到我的小破站</h3>
