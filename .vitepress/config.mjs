@@ -12,16 +12,24 @@ export default defineConfig({
   head: [
     ['link', { rel: 'icon', href: 'https://bu.dusays.com/2025/04/06/67f28134f3d48.png' }]
   ],
+  markdown: {
+    image: {
+      // 默认禁用；设置为 true 可为所有图片启用懒加载。
+      lazyLoading: true
+    }
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: 'https://bu.dusays.com/2025/04/06/67f28134f3d48.png',
-    footer: {
-      message: 'ʜᴀᴄᴋ ᴅᴇᴀᴄᴏɴ',
-      copyright: 'Happy Myself with Heart'
-    },
+    // footer: {
+    //   message: 'ʜᴀᴄᴋ ᴅᴇᴀᴄᴏɴ',
+    //   copyright: 'Happy Myself with Heart'
+    // },
+
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Posts', link: '/hack' }
+      { text: 'Posts', link: '/hack' },
+      { text: 'About', link: '/about' },
     ],
 
     sidebar: [
@@ -66,12 +74,14 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'valorant', link: 'https://github.com/hackdeacon' }
+      { icon: 'valorant', link: 'https://github.com/hackdeacon' },
+      { icon: 'twitter', link: 'https://x.com/hackdeacon' },
+      // { icon: 'gmail', link: 'mailto:hackdeacon@gmail.com' },
     ],
 
-    editLink: {
-      pattern: 'https://github.com/hackdeacon/HackStory/edit/main/:path',
-      text: 'Edit this page on GitHub'
-    }
+    // editLink: {
+    //   pattern: 'https://github.com/hackdeacon/HackStory/edit/main/:path',
+    //   text: 'Edit this page on GitHub'
+    // }
   }
 })

@@ -17,25 +17,25 @@ hero:
       text: 作家
       link: /hack
     - theme: alt
-      text: HackMusic
-      link: https://music.hackdeacon.xyz/
+      text: 关于我
+      link: /about
 
 features:
   - icon:
       src: https://bu.dusays.com/2025/04/05/67f00d3886dff.gif
-    title: 创作 📸
+    title: Creativity 📸
     details: 自媒体</br>从内容策划到剪辑
   - icon:
       src: https://bu.dusays.com/2025/04/05/67f015a451133.gif
-    title: 技术 💻
+    title: Craft 💻
     details: 产品开发</br>从调研到开发到上线
   - icon:
       src: https://bu.dusays.com/2025/04/05/67f00d3884cf3.gif
-    title: 分享 📱
+    title: Sharing 🎀
     details: 好玩有趣的小玩意
   - icon:
       src: https://bu.dusays.com/2025/04/07/67f2b4cf8c0f8.webp
-    title: 生活 🍟
+    title: Moments 🍟
     details: 碎碎念
 ---
 

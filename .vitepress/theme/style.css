@@ -93,8 +93,8 @@
 :root {
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: -webkit-linear-gradient(120deg,
-      #FB923C 25%,
-      #EAB308);
+      #F55888 25%,
+      #FDA4AF);
 
   --vp-home-hero-image-background-image: linear-gradient(-45deg,
       #FB7299 50%,
@@ -124,9 +124,23 @@
   --vp-custom-block-tip-bg: var(--vp-c-brand-soft);
   --vp-custom-block-tip-code-bg: var(--vp-c-brand-soft);
   --vp-font-family-mono: 'SF Mono', ui-monospace, 'Menlo', 'Monaco', 'Consolas', 'Liberation Mono', 'Courier New', monospace;
-  --vp-c-brand-1: #FB7299;
-  --vp-c-brand-2: #FB923C;
-  --vp-c-brand-3: #EAB308;
+  --vp-c-brand-1: #F55888;
+  --vp-c-brand-2: #FB7299;
+  --vp-c-brand-3: #FDA4AF;
+  --vp-badge-tip-text: #3451B2;
+}
+
+.dark {
+  --vp-badge-tip-text: #A8B1FF;
+  --vp-c-brand-1: #A8B1FF;
+  --vp-c-brand-2: #5C73E7;
+  --vp-c-brand-3: #3E63DD;
+  --vp-home-hero-image-background-image: linear-gradient(-45deg,
+      #5C73E7 50%,
+      #A8B1FF 50%);
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg,
+      #3E63DD 25%,
+      #A8B1FF);
 }
 
 /**
