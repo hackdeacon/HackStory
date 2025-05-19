@@ -8,7 +8,7 @@ titleTemplate: ':title - 用心取悦自己'
 hero:
   name: "黑胶故事"
   text: "用心取悦自己"
-  tagline: hackdeacon.xyz
+  tagline: HackStories
   image: 
     src: 'https://bu.dusays.com/2025/04/05/67f00d387f31b.gif'
     alt: HackCrew
@@ -27,7 +27,7 @@ features:
     details: 自媒体</br>从内容策划到剪辑
   - icon:
       src: https://bu.dusays.com/2025/04/05/67f015a451133.gif
-    title: Craft 💻
+    title: Craft 🛠️
     details: 产品开发</br>从调研到开发到上线
   - icon:
       src: https://bu.dusays.com/2025/04/05/67f00d3884cf3.gif

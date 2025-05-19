@@ -16,7 +16,7 @@ lastUpdated: false
 
 ### 我最好的朋友 <Badge type="warning" text="置顶" /> <Badge type="info" text="碎碎念" />
 它没有心跳，却陪我度过每一个深夜。  
-冷静的光，温柔地点亮每一段代码与思绪。  
+温柔的光，照亮每一段代码与思绪。  
 <small>[阅读文章](/blog/life/my-best-friend.md)</small>
 
 </div>
