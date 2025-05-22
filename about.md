@@ -468,7 +468,7 @@ const acknowledgements = [
   </div>
   <div class="accordion-item">
     <a href="https://v.douyin.com/uKo2HiteOyk/" target="_blank">
-      <img src="https://sns-webpic-qc.xhscdn.com/202505221551/78394b8716074323f2200671b3bc4d4d/spectrum/1040g0k031evf7cd45s00440427pe47ikrrvkhp8!nc_n_webp_mw_1" title="王松傲寒">
+      <img src="https://p3-pc.douyinpic.com/img/aweme-avatar/mosaic-legacy_317260008137ea34710fe~c5_300x300.jpeg" title="王松傲寒">
     </a>
   </div>
 </div>
