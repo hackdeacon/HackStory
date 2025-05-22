@@ -45,7 +45,7 @@ export default defineConfig({
       },
       {
         text: '开发与技术',
-        collapsed: false,
+        collapsed: true,
         items: [
           { text: '前端', link: '/hack#前端-🎨' },
           { text: '后端', link: '/hack#后端-🛠' },
@@ -70,7 +70,16 @@ export default defineConfig({
           { text: '学习', link: '/blog/HackAwards2024' },
           { text: '碎碎念', link: '/hack#我最好的朋友' },
         ]
-      }
+      },
+      {
+        text: '置顶文章', link: '/blog/reprint/manateelazycat-my-life-before-28-years'
+      },
+      {
+        text: '文章隧道', link: '/blog/reprint/manateelazycat-my-life-before-28-years'
+      },
+      {
+        text: '好文转载', link: '/blog/reprint/manateelazycat-my-life-before-28-years'
+      },
     ],
 
     socialLinks: [
