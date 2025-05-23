@@ -7,7 +7,7 @@ export default defineConfig({
   // titleTemplate: "用心取悦自己",
   description: "hackdeacon",
   cleanUrls: true,
-  lastUpdated: true,
+  lastUpdated: false,
   lang: 'zh',
   head: [
     ['link', { rel: 'icon', href: 'https://bu.dusays.com/2025/04/06/67f28134f3d48.png' }]
