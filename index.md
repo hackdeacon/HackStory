@@ -7,10 +7,10 @@ titleTemplate: ':title - 用心取悦自己'
 
 hero:
   name: "黑胶故事"
-  text: "用心取悦自己"
+  text: "皆为悦己而作"
   tagline: HackStories
   image: 
-    src: 'https://bu.dusays.com/2025/04/05/67f00d387f31b.gif'
+    src: 'https://img.hackdeacon.cn/file/hotlink-ok/hero.gif'
     alt: HackCrew
   actions:
     - theme: brand
@@ -22,27 +22,27 @@ hero:
 
 features:
   - icon:
-      src: https://bu.dusays.com/2025/04/05/67f00d3886dff.gif
-    title: Creativity 📸
-    details: 自媒体</br>从内容策划到剪辑
+      src: https://img.hackdeacon.cn/file/hotlink-ok/creating.gif
+    title: 📸 Creating
+    details: 创作</br>生活作品
   - icon:
-      src: https://bu.dusays.com/2025/04/05/67f015a451133.gif
-    title: Craft 🛠️
-    details: 产品开发</br>从调研到开发到上线
+      src: https://img.hackdeacon.cn/file/hotlink-ok/building.gif
+    title: 💻 Building
+    details: 项目</br>技术作品
   - icon:
-      src: https://bu.dusays.com/2025/04/05/67f00d3884cf3.gif
-    title: Sharing 🎀
-    details: 好玩有趣的小玩意
+      src: https://img.hackdeacon.cn/file/hotlink-ok/thinking.gif
+    title: 💭 Thinking
+    details: 观点</br>生活记录
   - icon:
-      src: https://bu.dusays.com/2025/04/07/67f2b4cf8c0f8.webp
-    title: Moments 🍟
-    details: 碎碎念
+      src: https://img.hackdeacon.cn/file/hotlink-ok/learning.gif
+    title: 📚 Learning
+    details: 教程</br>技术笔记
 ---
 
-<!-- <h3 align="center">欢迎来到我的小破站</h3>
+<h3 align="center">欢迎来到我的小破站</h3>
 
 <p align="center">
-  <img src="https://bu.dusays.com/2025/04/04/67efce20aff5b.gif" alt="butterbear">
-</p> -->
+  <img src="https://img.hackdeacon.cn/file/hotlink-ok/hi.gif" alt="butterbear">
+</p>
 
-<!-- ![butterbear](https://bu.dusays.com/2025/04/04/67efce20aff5b.gif) -->
+![butterbear](https://img.hackdeacon.cn/file/Windows.jpg)

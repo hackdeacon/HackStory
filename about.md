@@ -20,7 +20,7 @@ const members = [
   {
     avatar: 'https://www.github.com/hackdeacon.png',
     name: '黑衣执事',
-    title: '用心取悦自己',
+    title: 'hackdeacon',
     links: [
       // { icon: 'github', link: 'https://github.com/hackdeacon' },
       { icon: 'twitter', link: 'https://twitter.com/hackdeacon' }
@@ -111,7 +111,7 @@ const acknowledgements = [
 ]
 </script>
 
-# 👋🏻 Hi, I'm Hack Deacon.
+# 👋🏻 Hi, I'm hackdeacon.
 
 <VPTeamMembers size="small" :members />
 
