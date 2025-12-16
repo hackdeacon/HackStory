@@ -10,7 +10,7 @@ export default defineConfig({
   lastUpdated: false,
   lang: 'zh',
   head: [
-    ['link', { rel: 'icon', href: 'https://bu.dusays.com/2025/04/06/67f28134f3d48.png' }]
+    ['link', { rel: 'icon', href: 'https://img.hackdeacon.cn/file/hack.png' }]
   ],
   markdown: {
     image: {
@@ -20,7 +20,7 @@ export default defineConfig({
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: 'https://bu.dusays.com/2025/04/06/67f28134f3d48.png',
+    logo: '/favicon.ico',
     // footer: {
     //   message: 'ʜᴀᴄᴋ ᴅᴇᴀᴄᴏɴ',
     //   copyright: 'Happy Myself with Heart'
@@ -28,62 +28,82 @@ export default defineConfig({
 
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Posts', link: '/hack' },
+      {
+        text: 'Blog',
+        items: [
+          { text: '创作', link: '/blog/creation/' },
+          { text: '项目', link: '/blog/projects/' },
+          { text: '观点', link: '/blog/thoughts/' },
+          { text: '教程', link: '/blog/tutorial/' }
+        ]
+      },
       { text: 'About', link: '/about' },
     ],
 
-    sidebar: [
-      {
-        text: '自媒体创作',
-        collapsed: false,
-        items: [
-          { text: '选题', link: '/hack#选题-📝' },
-          { text: '摄影', link: '/hack#摄影-📸' },
-          { text: '剪辑', link: '/hack#剪辑-🎬' },
-          { text: '运营', link: '/hack#运营-📈' },
-        ]
-      },
-      {
-        text: '开发与技术',
-        collapsed: true,
-        items: [
-          { text: '前端', link: '/hack#前端-🎨' },
-          { text: '后端', link: '/hack#后端-🛠' },
-          { text: '运维', link: '/hack#运维-⚙' },
-          { text: 'LLM', link: '/hack#llm-🤖' },
-        ]
-      },
-      {
-        text: '产品小分享',
-        collapsed: true,
-        items: [
-          { text: '数码', link: '/hack#数码-🎧' },
-          { text: '网站', link: '/hack#网站-🌐' },
-          { text: 'App', link: '/hack#app-📲' },
-        ]
-      },
-      {
-        text: '生活小记录',
-        collapsed: true,
-        items: [
-          { text: '成长', link: '/hack2' },
-          { text: '学习', link: '/blog/HackAwards2024' },
-          { text: '碎碎念', link: '/hack#我最好的朋友' },
-        ]
-      },
-      {
-        text: '置顶文章', link: '/blog/reprint/manateelazycat-my-life-before-28-years'
-      },
-      {
-        text: '文章隧道', link: '/blog/reprint/manateelazycat-my-life-before-28-years'
-      },
-      {
-        text: '好文转载', link: '/blog/reprint/manateelazycat-my-life-before-28-years'
-      },
-    ],
+    sidebar: {
+      '/blog/creation/': [
+        {
+          text: '创作',
+          collapsed: false,
+          items: [
+            { text: '简介', link: '/blog/creation/' },
+            { text: '123', link: '/blog/creation/0' }
+          ]
+        },
+        {
+          text: '作品集',
+          collapsed: false,
+          items: [
+            { text: '蓬中时光机', link: '/blog/creation/1' },
+            { text: '黑胶故事', link: '/blog/creation/2' }
+          ]
+        },
+        {
+          text: '摄影教程',
+          collapsed: false,
+          items: [
+            { text: '曝光', link: '/blog/creation/1' },
+            { text: '档位', link: '/blog/creation/2' },
+            { text: '焦段', link: '/blog/creation/3' },
+            { text: 'Raw', link: '/blog/creation/4' },
+            { text: '后期', link: '/blog/creation/5' },
+          ]
+        }
+      ],
+      '/blog/projects/': [
+        {
+          text: '项目',
+          collapsed: false,
+          items: [
+            { text: '简介', link: '/blog/projects/' },
+            { text: '123', link: '/guide/' }
+          ]
+        }
+      ],
+      '/blog/thoughts': [
+        {
+          text: '观点',
+          collapsed: false,
+          items: [
+            { text: '简介', link: '/blog/thoughts/' },
+            { text: '123', link: '/guide/' }
+          ]
+        }
+      ],
+      '/blog/tutorial/': [
+        {
+          text: '教程',
+          collapsed: false,
+          items: [
+            { text: '简介', link: '/blog/tutorial/' },
+            { text: '123', link: '/guide/123' }
+          ]
+        }
+      ]
+    },
 
     socialLinks: [
-      { icon: 'valorant', link: 'https://github.com/hackdeacon' },
+      // { icon: 'valorant', link: 'https://github.com/hackdeacon' },
       { icon: 'twitter', link: 'https://x.com/hackdeacon' },
       // { icon: 'gmail', link: 'mailto:hackdeacon@gmail.com' },
     ],

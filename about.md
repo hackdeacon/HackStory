@@ -34,7 +34,7 @@ const hackmates = [
     name: 'HimiCos',
     title: 'A quiet technical learner',
     links: [
-      { icon: 'github', link: 'https://himicos.com' },
+      { icon: 'github', link: 'https://github.com/himicoswilson' },
       // { icon: 'hexo', link: 'https://himicos.com' }
     ]
   },
@@ -89,7 +89,7 @@ const acknowledgements = [
     name: 'HimiCos',
     title: 'Friends since 2018',
     links: [
-      { icon: 'twitter', link: 'https://himicos.com' }
+      { icon: 'twitter', link: 'https://github.com/himicoswilson' }
     ]
   },
   {
@@ -138,7 +138,7 @@ const acknowledgements = [
 - 记录生活 Vlogging 📸
 
 ::: tip 黑衣执事 - 用心取悦自己
-[hackdeacon.xyz](https://hackdeacon.xyz)
+[hackdeacon.cn](https://hackdeacon.cn)
 :::
 
 ::: warning WeChat Mini Program
@@ -278,7 +278,7 @@ const acknowledgements = [
 理想主义的探索者，追求内心的真实与世界的美好。  
 喜欢沉思、创作、表达自我，也乐于共情和倾听他人。
 
-![infp](https://www.16personalities.com/static/animations/type-descriptions/introductions/mediator.svg)
+![infp](https://img.hackdeacon.cn/file/mediator.svg)
 :::
 
 ## 🎧 Music
