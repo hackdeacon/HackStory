@@ -14,8 +14,8 @@ hero:
     alt: HackCrew
   actions:
     - theme: brand
-      text: ✨ 启航
-      link: /hack
+      text: 启航
+      link: /blog/creation/
     - theme: alt
       text: 作家
       link: /about

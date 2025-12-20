@@ -20,7 +20,7 @@ export default defineConfig({
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: '/favicon.ico',
+    logo: 'https://img.hackdeacon.cn/file/hack.png',
     // footer: {
     //   message: 'ʜᴀᴄᴋ ᴅᴇᴀᴄᴏɴ',
     //   copyright: 'Happy Myself with Heart'
@@ -96,7 +96,7 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: '简介', link: '/blog/tutorial/' },
-            { text: '123', link: '/guide/123' }
+            { text: '搭建图床', link: '/blog/tutorial/imgbed.md' }
           ]
         }
       ]

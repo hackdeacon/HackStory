@@ -32,18 +32,18 @@ const hackmates = [
   {
     avatar: 'https://www.github.com/himicoswilson.png',
     name: 'HimiCos',
-    title: 'A quiet technical learner',
+    title: 'Exploring programming & AI',
     links: [
       { icon: 'github', link: 'https://github.com/himicoswilson' },
       // { icon: 'hexo', link: 'https://himicos.com' }
     ]
   },
   {
-    avatar: 'https://bu.dusays.com/2025/05/19/682b1b2de306e.webp',
-    name: 'Grok',
-    title: 'Understand the universe',
+    avatar: 'https://pic.hackdeacon.cn/trae.png',
+    name: 'TRAE',
+    title: 'The Real AI Engineer',
     links: [
-      { icon: 'x', link: 'https://grok.com' }
+      { icon: 'x', link: 'https://x.com/Trae_ai' }
     ]
   },
 ]
@@ -111,16 +111,15 @@ const acknowledgements = [
 ]
 </script>
 
-# 👋🏻 Hi, I'm hackdeacon.
+# 👋🏻 Hi, I'm Ringo.
 
 <VPTeamMembers size="small" :members />
 
 ## 🧑🏻‍💻 Whoami
 
-- 计算机专业在读 💻
-- 学习产品开发、LLM、科技数码 🎨
-- 自媒体内容创作者（技术 / Vlog）📝
-- 喜欢探索新思维、新技能 🎲
+- 科技数码爱好者 📸
+- 自媒体内容创作者 📝
+- 计算机专业准毕业生 🎓
 
 ## ✨ Sparking Creativity
 
@@ -128,9 +127,9 @@ const acknowledgements = [
 - **后端** <Badge type="danger" text="Node.js" />
 - **创作** <Badge type="tip" text="Premiere Pro" /> <Badge type="tip" text="Lightroom" />
 - **技能** <Badge type="warning" text="Photograph" /> <Badge type="warning" text="Vibe Coding" />
-- **学习中** <Badge type="info" text="Swift" /> <Badge type="info" text="LLM" />
+- **学习中** <Badge type="info" text="React" /> <Badge type="info" text="TypeScript" /> <Badge type="info" text="Rust" />
 
-## 🧩 What I'm Crafting
+## 🌱 What I'm Exploring
 - 探索 LLM 🤖
 - 积累项目经验 🛠️
 - 完善技术博客 📚
@@ -146,7 +145,6 @@ const acknowledgements = [
 :::
 
 ## 🎓 Milestones Timeline
-<!-- - Chalkboards 2 Keyboards -->
 
 <style>
 .school-logo {
@@ -186,7 +184,7 @@ const acknowledgements = [
 :::
 
 ::: info **工作经历 💼**
-<img class="company-logo" src="https://www.minephone.com/static/logo_study3.png" style="border: 2px solid plum;" /> **迈峰网络科技** <Badge type="tip" text="即将加入" style="font-weight:bold" />
+<img class="company-logo" src="https://www.minephone.com/static/logo_study3.png" style="border: 2px solid plum;" /> **迈峰网络科技** <Badge type="tip" text="2025" style="font-weight:bold" />
 :::
 
 <!-- <style>
@@ -626,13 +624,14 @@ const acknowledgements = [
 
 </div>
 
-## 💌 Vibe with Me
+## 💌 Vibe with me
 
 | Platform | Channel |
 | :--- | :--- |
-| 📧 Mail | hackdeacon@gmail.com |
-| 🐦 Twitter | [@hackdeacon](https://x.com/hackdeacon) |
-| 📸 Bilibili | [@黑衣执事X](https://space.bilibili.com/287107582) |
+| 📧 Email | contact@hackdeacon.cn |
+| 🐦 Twitter/X | [@hackdeacon](https://x.com/hackdeacon) |
+| 📺 Bilibili | [@黑衣执事X](https://space.bilibili.com/287107582) |
+| ▶️ YouTube | [@黑衣执事](https://www.youtube.com/@hackdeacon) |
 
 ---
 
