@@ -86,7 +86,7 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: '简介', link: '/blog/thoughts/' },
-            { text: '123', link: '/guide/' }
+            { text: '黑胶故事·贰零贰伍', link: '/blog/thoughts/40-Questions-2025' }
           ]
         }
       ],
