@@ -2,7 +2,7 @@
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
 titleTemplate: ':title - 用心取悦自己'
-# footer: false
+footer: false
 # navbar: false
 
 hero:
@@ -14,7 +14,7 @@ hero:
     alt: HackCrew
   actions:
     - theme: brand
-      text: 启航
+      text: 绿叶
       link: /blog/creation/
     - theme: alt
       text: 作家

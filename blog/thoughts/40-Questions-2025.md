@@ -1,4 +1,4 @@
-# 黑胶故事·2025
+# 黑胶故事·贰零贰伍
 
 [Obsidian](https://obsidian.md/) 的作者 [Kepano](https://twitter.com/kepano) 每年年终都会问自己 40 个问题：  
 [40 questions to ask yourself every year](https://stephango.com/40-questions)  
@@ -21,7 +21,7 @@
 - 第一次从零搭了一个完整的前后端项目  
   把 Vue、Node、SQL、API 等技术栈全部自己走了一遍。
 
-- 第一次真正接触 Cloudflare 是那次 [全球性宕机](https://blog.cloudflare.com/zh-cn/18-november-2025-outage/)，之前我只是听朋友推荐。  
+- 第一次真正接触 Cloudflare 是在那次 [全球性宕机](https://blog.cloudflare.com/zh-cn/18-november-2025-outage/) 之后，之前我只是听朋友推荐。  
   最初只是把它当作 DNS 解析，后来开始理解它的 CDN、反代、防护、Workers、Pages 等能力，才意识到它其实是一个可以重新塑造网站体验的完整生态。  
   这是我今年技术视野被打开的一个重要节点。
 

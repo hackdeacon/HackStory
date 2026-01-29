@@ -117,6 +117,7 @@ const acknowledgements = [
 
 ## 🧑🏻‍💻 Whoami
 
+- 独立开发者 💻
 - 科技数码爱好者 📸
 - 自媒体内容创作者 📝
 - 计算机专业准毕业生 🎓
@@ -127,7 +128,7 @@ const acknowledgements = [
 - **后端** <Badge type="danger" text="Node.js" />
 - **创作** <Badge type="tip" text="Premiere Pro" /> <Badge type="tip" text="Lightroom" />
 - **技能** <Badge type="warning" text="Photograph" /> <Badge type="warning" text="Vibe Coding" />
-- **学习中** <Badge type="info" text="React" /> <Badge type="info" text="TypeScript" /> <Badge type="info" text="Rust" />
+- **学习中** <Badge type="info" text="React" /> <Badge type="info" text="TypeScript" /> <Badge type="info" text="Rust" /> <Badge type="info" text="Swift" />
 
 ## 🌱 What I'm Exploring
 - 探索 LLM 🤖
@@ -136,7 +137,7 @@ const acknowledgements = [
 - 深入学习前后端交互 📈
 - 记录生活 Vlogging 📸
 
-::: tip 黑衣执事 - 用心取悦自己
+::: tip 个人主页
 [hackdeacon.cn](https://hackdeacon.cn)
 :::
 
@@ -265,7 +266,7 @@ const acknowledgements = [
 <VPTeamMembers size="small" :members="hackmates" />
 
 ## 💕 Motto
-::: danger 用心取悦自己。
+::: danger 皆为悦己而作
 **Love Yourself, Wholeheartedly.** 
 :::
 

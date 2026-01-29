@@ -10,7 +10,7 @@ export default defineConfig({
   lastUpdated: false,
   lang: 'zh',
   head: [
-    ['link', { rel: 'icon', href: 'https://img.hackdeacon.cn/file/hack.png' }]
+    ['link', { rel: 'icon', href: 'https://pic.hackdeacon.cn/hack.png' }]
   ],
   markdown: {
     image: {
@@ -20,24 +20,24 @@ export default defineConfig({
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: 'https://img.hackdeacon.cn/file/hack.png',
-    // footer: {
-    //   message: 'ʜᴀᴄᴋ ᴅᴇᴀᴄᴏɴ',
-    //   copyright: 'Happy Myself with Heart'
-    // },
+    logo: 'https://pic.hackdeacon.cn/hack.png',
+    footer: {
+      message: 'hackdeacon',
+      copyright: 'Copyright © 2026 Ringo. All rights reserved.'
+    },
 
     nav: [
-      { text: 'Home', link: '/' },
+      // { text: 'Home', link: '/' },
       {
         text: 'Blog',
         items: [
-          { text: '创作', link: '/blog/creation/' },
-          { text: '项目', link: '/blog/projects/' },
-          { text: '观点', link: '/blog/thoughts/' },
-          { text: '教程', link: '/blog/tutorial/' }
+          { text: 'Creation', link: '/blog/creation/' },
+          { text: 'Projects', link: '/blog/projects/' },
+          { text: 'Thoughts', link: '/blog/thoughts/' },
+          { text: 'Tutorial', link: '/blog/tutorial/' }
         ]
       },
-      { text: 'About', link: '/about' },
+      // { text: 'About', link: '/about' }
     ],
 
     sidebar: {
@@ -54,13 +54,13 @@ export default defineConfig({
           text: '作品集',
           collapsed: false,
           items: [
-            { text: '蓬中时光机', link: '/blog/creation/1' },
-            { text: '黑胶故事', link: '/blog/creation/2' }
+            { text: '汕头记忆', link: '/blog/creation/2' },
+            { text: '蓬中时光机', link: '/blog/creation/1' }
           ]
         },
         {
           text: '摄影教程',
-          collapsed: false,
+          collapsed: true,
           items: [
             { text: '曝光', link: '/blog/creation/1' },
             { text: '档位', link: '/blog/creation/2' },
@@ -86,7 +86,20 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: '简介', link: '/blog/thoughts/' },
-            { text: '黑胶故事·贰零贰伍', link: '/blog/thoughts/40-Questions-2025' }
+          ]
+        },
+        {
+          text: '黑胶故事',
+          collapsed: false,
+          items: [
+            { text: '贰零贰伍', link: '/blog/thoughts/40-Questions-2025' }
+          ]
+        },
+        {
+          text: '碎碎念',
+          collapsed: false,
+          items: [
+            { text: '我最好的朋友', link: '/blog/thoughts/my-best-friend' }
           ]
         }
       ],
@@ -96,7 +109,9 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: '简介', link: '/blog/tutorial/' },
-            { text: '搭建图床', link: '/blog/tutorial/imgbed.md' }
+            { text: '搭建图床', link: '/blog/tutorial/imgbed' },
+            { text: '让你的 Favicon 适配主题', link: '/blog/tutorial/favicon' },
+            { text: '介绍一下 Apple Creator Studio', link: '/blog/tutorial/apple-creator-studio' }
           ]
         }
       ]
