@@ -92,7 +92,7 @@ export default defineConfig({
           text: '黑胶故事',
           collapsed: false,
           items: [
-            { text: '贰零贰伍', link: '/blog/thoughts/40-Questions-2025' }
+            { text: '2025', link: '/blog/thoughts/40-Questions-2025' }
           ]
         },
         {

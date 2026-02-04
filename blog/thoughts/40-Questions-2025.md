@@ -1,4 +1,8 @@
-# 黑胶故事·贰零贰伍
+---
+ title: 黑胶故事·2025
+---
+
+# 黑胶故事 · 贰零贰伍
 
 [Obsidian](https://obsidian.md/) 的作者 [Kepano](https://twitter.com/kepano) 每年年终都会问自己 40 个问题：  
 [40 questions to ask yourself every year](https://stephango.com/40-questions)  
@@ -55,7 +59,7 @@
 
 ## 03. 你身边有人今年有小孩了吗？
 
-没有，我感觉我们还很年轻，而且据我了解身边大多数人都是不结婚的心态😂
+没有，我感觉我们还很年轻，而且据我了解身边大多数人都是不结婚的心态 😂
 
 
 ## 04. 你身边有人今年离开人世了吗？
