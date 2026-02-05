@@ -10,7 +10,8 @@ export default defineConfig({
   lastUpdated: false,
   lang: 'zh',
   head: [
-    ['link', { rel: 'icon', href: 'https://pic.hackdeacon.cn/hack.png' }]
+    ['link', { rel: 'icon', href: '/favicon.ico' }],
+    ['link', { rel: 'apple-touch-icon', href: '/favicon.ico' }]
   ],
   markdown: {
     image: {
@@ -20,7 +21,7 @@ export default defineConfig({
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: 'https://pic.hackdeacon.cn/hack.png',
+    logo: '/favicon.ico',
     footer: {
       message: 'hackdeacon',
       copyright: 'Copyright © 2026 Ringo. All rights reserved.'
