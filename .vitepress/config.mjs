@@ -10,8 +10,8 @@ export default defineConfig({
   lastUpdated: false,
   lang: 'zh',
   head: [
-    ['link', { rel: 'icon', href: '/favicon.ico' }],
-    ['link', { rel: 'apple-touch-icon', href: '/favicon.ico' }]
+    ['link', { rel: 'icon', href: 'https://pic.hackstory.cn/hackstory.webp' }],
+    ['link', { rel: 'apple-touch-icon', href: 'https://pic.hackstory.cn/hackstory.webp' }]
   ],
   markdown: {
     image: {
@@ -21,7 +21,7 @@ export default defineConfig({
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: '/favicon.ico',
+    logo: 'https://pic.hackstory.cn/hackstory.webp',
     footer: {
       message: 'hackdeacon',
       copyright: 'Copyright © 2026 Ringo. All rights reserved.'
