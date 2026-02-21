@@ -111,7 +111,7 @@ const acknowledgements = [
 ]
 </script>
 
-# 👋🏻 Hi, I'm Ringo.
+# Hi, I'm Ringo 👋🏻
 
 <VPTeamMembers size="small" :members />
 
@@ -629,7 +629,7 @@ const acknowledgements = [
 
 | Platform | Channel |
 | :--- | :--- |
-| 📧 Email | contact@hackdeacon.cn |
+| 📧 Email | Ringo@hackdeacon.cn |
 | 🐦 Twitter/X | [@hackdeacon](https://x.com/hackdeacon) |
 | 📺 Bilibili | [@黑衣执事X](https://space.bilibili.com/287107582) |
 | ▶️ YouTube | [@黑衣执事](https://www.youtube.com/@hackdeacon) |
