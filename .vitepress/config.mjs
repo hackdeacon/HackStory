@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   // appearance: false,
-  title: "黑衣执事",
+  title: "黑胶故事",
   // titleTemplate: "用心取悦自己",
   description: "hackdeacon",
   cleanUrls: true,

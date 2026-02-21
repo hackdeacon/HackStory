@@ -33,7 +33,7 @@ serverHold (注册局设置暂停解析)
 而 `serverHold` 由注册局控制，只有在完成合规审查后才可能被移除。
 
 
-![serverHold](https://pic.hackdeacon.cn/blog/nfkisLVo.png)
+![serverHold](https://pic.hackstory.cn/blog/nfkisLVo.png)
 
 随后从注册商 Spaceship 确认：
 
@@ -43,7 +43,7 @@ serverHold (注册局设置暂停解析)
 
 注册商无法直接处理，只能由注册局审核。
 
-![Spaceship](https://pic.hackdeacon.cn/blog/hIxAeNXN.png)
+![Spaceship](https://pic.hackstory.cn/blog/hIxAeNXN.png)
 
 可能那几个视频解析网站的 SEO 里包含 `downloader` 等字样，导致被注册局识别为滥用。
 后来我将这几个网站的名字改为了 `Bilibili Demo`、`TikTok Demo`、`Twitter Demo`，以规避被注册局识别为滥用。

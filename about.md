@@ -39,7 +39,7 @@ const hackmates = [
     ]
   },
   {
-    avatar: 'https://pic.hackdeacon.cn/trae.png',
+    avatar: 'https://pic.hackstory.cn/trae.png',
     name: 'TRAE',
     title: 'The Real AI Engineer',
     links: [

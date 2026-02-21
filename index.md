@@ -1,7 +1,7 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
-titleTemplate: ':title - 用心取悦自己'
+titleTemplate: ':title - 皆为悦己而作'
 footer: false
 # navbar: false
 

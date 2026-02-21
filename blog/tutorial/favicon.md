@@ -9,10 +9,10 @@
 
 当图标为纯黑或纯白时，用户切换系统主题可能导致图标与背景的对比度不足。
 
-![正常深色模式 Favicon](https://pic.hackdeacon.cn/blog/0EeQKlRb.webp)
-![错误深色模式 Favicon](https://pic.hackdeacon.cn/blog/JF0MreH8.webp)
-![正确浅色模式 Favicon](https://pic.hackdeacon.cn/blog/fFahtbS8.webp)
-![错误浅色模式 Favicon](https://pic.hackdeacon.cn/blog/d993Zy81.webp)
+![正常深色模式 Favicon](https://pic.hackstory.cn/blog/0EeQKlRb.webp)
+![错误深色模式 Favicon](https://pic.hackstory.cn/blog/JF0MreH8.webp)
+![正确浅色模式 Favicon](https://pic.hackstory.cn/blog/fFahtbS8.webp)
+![错误浅色模式 Favicon](https://pic.hackstory.cn/blog/d993Zy81.webp)
 
 ## 静态图片 favicon 切换
 
