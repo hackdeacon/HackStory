@@ -92,13 +92,9 @@
 
 :root {
   --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: -webkit-linear-gradient(120deg,
-      #F55888 25%,
-      #FDA4AF);
+  --vp-home-hero-name-background: -webkit-linear-gradient(135deg, #3399FF 0%, #66B2FF 50%, #99CCFF 100%);
 
-  --vp-home-hero-image-background-image: linear-gradient(-45deg,
-      #FB7299 50%,
-      #FDA4AF 50%);
+  --vp-home-hero-image-background-image: linear-gradient(to left, #33A1FF 0%, #66C2FF 50%, #99D9FF 100%);
   --vp-home-hero-image-filter: blur(44px);
 }
 
@@ -124,24 +120,28 @@
   --vp-custom-block-tip-bg: var(--vp-c-brand-soft);
   --vp-custom-block-tip-code-bg: var(--vp-c-brand-soft);
   --vp-font-family-base: -apple-system, BlinkMacSystemFont, "Inter", "PingFang SC", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --vp-font-family-mono: ui-monospace,'SF Mono', 'Menlo', 'Monaco', 'Consolas', 'Liberation Mono', 'Courier New', monospace;
-  --vp-c-brand-1: #F55888;
-  --vp-c-brand-2: #FB7299;
-  --vp-c-brand-3: #FDA4AF;
+  --vp-font-family-mono: ui-monospace, 'SF Mono', 'Menlo', 'Monaco', 'Consolas', 'Liberation Mono', 'Courier New', monospace;
+  --vp-c-brand-1: #267ACC;
+  --vp-c-brand-2: #66B2FF;
+  --vp-c-brand-3: #3399FF;
+  --vp-c-tip-1: #3451b2;
   --vp-badge-tip-text: #3451B2;
 }
 
+/*
+1: active / theme
+2: hover
+3: default
+*/
+
 .dark {
+  --vp-c-tip-1: #a8b1ff;
   --vp-badge-tip-text: #A8B1FF;
-  --vp-c-brand-1: #A8B1FF;
-  --vp-c-brand-2: #5C73E7;
-  --vp-c-brand-3: #3E63DD;
-  --vp-home-hero-image-background-image: linear-gradient(-45deg,
-      #5C73E7 50%,
-      #A8B1FF 50%);
-  --vp-home-hero-name-background: -webkit-linear-gradient(120deg,
-      #3E63DD 25%,
-      #A8B1FF);
+  --vp-c-brand-1: #A7916A;
+  --vp-c-brand-2: #C1AA7D;
+  --vp-c-brand-3: #B4A078;
+  --vp-home-hero-name-background: -webkit-linear-gradient(-45deg, #FFF2D7 0%, #E9D1A3 45%, #B88A44 100%);
+  --vp-home-hero-image-background-image: linear-gradient(to right, #E6D5B8, #B5A384, #9B8461);
 }
 
 /**
