@@ -112,7 +112,8 @@ export default defineConfig({
             { text: '简介', link: '/blog/tutorial/' },
             { text: '搭建图床', link: '/blog/tutorial/imgbed' },
             { text: '让你的 Favicon 适配主题', link: '/blog/tutorial/favicon' },
-            { text: '介绍一下 Apple Creator Studio', link: '/blog/tutorial/apple-creator-studio' }
+            { text: '介绍一下 Apple Creator Studio', link: '/blog/tutorial/apple-creator-studio' },
+            { text: '搭建个人域名邮箱', link: '/blog/tutorial/email' }
           ]
         }
       ]

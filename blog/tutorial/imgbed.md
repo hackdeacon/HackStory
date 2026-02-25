@@ -112,11 +112,15 @@ R2 和 KV 绑定完成之后，点击部署 -> **重试部署**。
 
 生效后我们可以用 https://www.itdog.cn/http 测试一下加速效果，仅作参考。
 
-**<center>加速前 ⬇️</center>**
+<p style="text-align:center;font-weight:bold;">
+加速前 ⬇️
+</p>
 
 ![ITDOG](https://pic.hackstory.cn/blog/dk2tt8uY.png)
 
-**<center>加速后 ⬇️</center>**
+<p style="text-align:center;font-weight:bold;">
+加速后 ⬇️
+</p>
 
 ![ITDOG](https://pic.hackstory.cn/blog/JUtoe1g5.png)
 
