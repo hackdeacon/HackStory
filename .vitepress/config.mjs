@@ -19,6 +19,9 @@ export default defineConfig({
       lazyLoading: true
     }
   },
+  sitemap: {
+    hostname: 'https://hackstory.cn'
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: 'https://pic.hackstory.cn/hackstory.webp',
