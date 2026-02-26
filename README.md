@@ -1,13 +1,8 @@
----
-title: README
-outline: false
----
-
-# 黑胶故事 · HackStories
+# HackStory
 
 📝 基于 [VitePress](https://vitepress.dev/) 构建的个人博客。  
 
-## ✨ Features
+### ✨ Features
 
 - 📸 **Creating** · 生活作品
 
@@ -17,4 +12,3 @@ outline: false
 
 - 📚 **Learning** · 技术笔记
 
-`欢迎访问我的博客，一起无限进步。`

@@ -1,20 +1,20 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
-titleTemplate: ':title - 皆为悦己而作'
+# titleTemplate: ':title - 皆为悦己而作'
 footer: false
 # navbar: false
 
 hero:
   name: "黑胶故事"
   text: "皆为悦己而作"
-  tagline: HackStories
+  tagline: Design by hackdeacon
   image: 
     src: 'https://img.hackdeacon.cn/file/hotlink-ok/hero.gif'
-    alt: HackCrew
+    alt: butterbear
   actions:
     - theme: brand
-      text: 绿叶
+      text: 开始探索
       link: /blog/creation/
     - theme: alt
       text: 作家

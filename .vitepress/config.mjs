@@ -3,15 +3,21 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   // appearance: false,
-  title: "黑胶故事",
-  // titleTemplate: "用心取悦自己",
-  description: "hackdeacon",
+  title: "hackstory",
+  titleTemplate: false,
+  description: "hackstory",
   cleanUrls: true,
   lastUpdated: false,
   lang: 'zh',
   head: [
     ['link', { rel: 'icon', href: '/hackstory.webp' }],
-    ['link', { rel: 'apple-touch-icon', href: '/hackstory.webp' }]
+    ['link', { rel: 'apple-touch-icon', href: '/hackstory.webp' }],
+    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+    ['meta', { name: 'twitter:site', content: '@hackdeacon' }],
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:title', content: 'HackStory' }],
+    ['meta', { property: 'og:description', content: '黑胶故事' }],
+    ['meta', { property: 'og:image', content: 'https://pic.hackstory.cn/hackstory-card.webp' }]
   ],
   markdown: {
     image: {
@@ -24,6 +30,7 @@ export default defineConfig({
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    siteTitle: 'HackStory',
     logo: '/hackstory.webp',
     footer: {
       message: 'hackdeacon',
@@ -114,7 +121,7 @@ export default defineConfig({
           items: [
             { text: '简介', link: '/blog/tutorial/' },
             { text: '搭建图床', link: '/blog/tutorial/imgbed' },
-            { text: '让你的 Favicon 适配主题', link: '/blog/tutorial/favicon' },
+            { text: '让 Favicon 适配主题', link: '/blog/tutorial/favicon' },
             { text: '介绍一下 Apple Creator Studio', link: '/blog/tutorial/apple-creator-studio' },
             { text: '搭建个人域名邮箱', link: '/blog/tutorial/email' }
           ]
