@@ -16,11 +16,11 @@ export default defineConfig({
     ['meta', { name: 'twitter:site', content: '@hackdeacon' }],
     ['meta', { name: 'twitter:title', content: 'HackStory' }],
     ['meta', { name: 'twitter:description', content: '黑胶故事' }],
-    ['meta', { name: 'twitter:image', content: 'https://pic.hackstory.cn/hackstory-card.webp' }],
+    ['meta', { name: 'twitter:image', content: 'https://pic.hackstory.cn/hotlink-ok/hackstory-card.webp' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:title', content: 'HackStory' }],
     ['meta', { property: 'og:description', content: '黑胶故事' }],
-    ['meta', { property: 'og:image', content: 'https://pic.hackstory.cn/hackstory-card.webp' }]
+    ['meta', { property: 'og:image', content: 'https://pic.hackstory.cn/hotlink-ok/hackstory-card.webp' }]
   ],
   markdown: {
     image: {
