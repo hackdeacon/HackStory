@@ -60,8 +60,7 @@ export default defineConfig({
           text: '创作',
           collapsed: false,
           items: [
-            { text: '简介', link: '/blog/creation/' },
-            { text: '123', link: '/blog/creation/0' }
+            { text: '简介', link: '/blog/creation/' }
           ]
         },
         {
@@ -74,7 +73,7 @@ export default defineConfig({
         },
         {
           text: '摄影教程',
-          collapsed: true,
+          collapsed: false,
           items: [
             { text: '曝光', link: '/blog/creation/1' },
             { text: '档位', link: '/blog/creation/2' },
@@ -89,8 +88,7 @@ export default defineConfig({
           text: '项目',
           collapsed: false,
           items: [
-            { text: '简介', link: '/blog/projects/' },
-            { text: '123', link: '/guide/' }
+            { text: '简介', link: '/blog/projects/' }
           ]
         }
       ],
@@ -122,12 +120,18 @@ export default defineConfig({
           text: '教程',
           collapsed: false,
           items: [
-            { text: '简介', link: '/blog/tutorial/' },
+            { text: '简介', link: '/blog/tutorial/' }
+          ]
+        },
+        {
+          text: '互联网技术',
+          collapsed: false,
+          items: [
             { text: '搭建图床', link: '/blog/tutorial/imgbed' },
-            { text: '让 Favicon 适配主题', link: '/blog/tutorial/favicon' },
-            { text: '介绍一下 Apple Creator Studio', link: '/blog/tutorial/apple-creator-studio' },
+            // { text: '让 Favicon 适配主题', link: '/blog/tutorial/favicon' },
+            // { text: '介绍一下 Apple Creator Studio', link: '/blog/tutorial/apple-creator-studio' },
             { text: '搭建个人域名邮箱', link: '/blog/tutorial/email' },
-            { text: '配置永久免费的谷歌云 VPS', link: '/blog/tutorial/google-cloud' }
+            { text: '配置谷歌云 VPS', link: '/blog/tutorial/google-cloud' }
           ]
         }
       ]

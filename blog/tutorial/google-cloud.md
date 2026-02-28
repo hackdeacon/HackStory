@@ -79,15 +79,15 @@ themeName: 知识库
 
 然后就可以点击创建虚拟机实例了，到这里就算配置完成了，下面列个汇总表格，大家可以照着表格对照一下配置对了没有。
 
-| 配置项         | 推荐设置                                                                 |
-| ---------------- | ------------------------------------------------------------------------ |
-| **区域**         | 爱荷华 / <span style="color:red;">俄勒冈</span>                        |
-| **机器类型**     | <span style="color:red;">e2-micro</span>                              |
-| **磁盘类型**     | <span style="color:red;">标准永久性磁盘</span>                              |
-| **磁盘大小**     | <span style="color:red;">30 GB</span>                                    |
-| **备份**         | <span style="color:red;">无备份</span>                                  |
-| **防火墙**       | 勾选 <span style="color:red;">允许 HTTP 流量</span> 和 <span style="color:red;">允许 HTTPS 流量</span> |
-| **网络服务层级** | <span style="color:red;">标准</span>                                      |
+| 配置项 | 推荐设置 |
+| :---: | :---: |
+| **区域** | 爱荷华 / <span style="color:red;">俄勒冈</span> |
+| **机器类型** | <span style="color:red;">e2-micro</span> |
+| **磁盘类型** | <span style="color:red;">标准永久性磁盘</span> |
+| **磁盘大小** | <span style="color:red;">30 GB</span> |
+| **备份** | <span style="color:red;">无备份</span> |
+| **防火墙** | 勾选 <span style="color:red;">允许 HTTP 流量</span> 和 <span style="color:red;">允许 HTTPS 流量</span> |
+| **网络服务层级** | <span style="color:red;">标准</span> |
 
 最后通过在线 SSH 连接就可以 Enjoy it 啦！
 

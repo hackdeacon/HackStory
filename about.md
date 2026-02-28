@@ -170,7 +170,7 @@ const acknowledgements = [
 ## 💌 Links
 
 | Platform | Channel |
-| :--- | :--- |
+| :---: | :--- |
 | 📧 Email | ringo@hackdeacon.cn |
 | 🐱 GitHub | [hackdeacon](https://github.com/hackdeacon) |
 | 🐦 Twitter | [@hackdeacon](https://x.com/hackdeacon) |
