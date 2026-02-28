@@ -14,6 +14,9 @@ export default defineConfig({
     ['link', { rel: 'apple-touch-icon', href: '/hackstory.webp' }],
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
     ['meta', { name: 'twitter:site', content: '@hackdeacon' }],
+    ['meta', { name: 'twitter:title', content: 'HackStory' }],
+    ['meta', { name: 'twitter:description', content: '黑胶故事' }],
+    ['meta', { name: 'twitter:image', content: 'https://pic.hackstory.cn/hackstory-card.webp' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:title', content: 'HackStory' }],
     ['meta', { property: 'og:description', content: '黑胶故事' }],
@@ -123,7 +126,8 @@ export default defineConfig({
             { text: '搭建图床', link: '/blog/tutorial/imgbed' },
             { text: '让 Favicon 适配主题', link: '/blog/tutorial/favicon' },
             { text: '介绍一下 Apple Creator Studio', link: '/blog/tutorial/apple-creator-studio' },
-            { text: '搭建个人域名邮箱', link: '/blog/tutorial/email' }
+            { text: '搭建个人域名邮箱', link: '/blog/tutorial/email' },
+            { text: '配置永久免费的谷歌云 VPS', link: '/blog/tutorial/google-cloud' }
           ]
         }
       ]
