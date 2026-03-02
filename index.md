@@ -15,7 +15,7 @@ hero:
   actions:
     - theme: brand
       text: 开始探索
-      link: /blog/creation/
+      link: /blog/tutorial/
     - theme: alt
       text: 作家
       link: /about

@@ -1,6 +1,5 @@
 ---
-theme: knowledge-base
-themeName: 知识库
+outline: deep
 ---
 
 # 免费的 Google Cloud 服务器
@@ -25,7 +24,7 @@ themeName: 知识库
 ![国家 / 地区](https://pic.hackstory.cn/blog/gcp/VJ6xnFeE.webp)
 
 使用美国地址生成器完善信息，并绑定外币卡。
-只要你按照要求配置，是不会产生费用的，顶多产生几美分的 CDN 费用（ 1 美分 = 0.07 人民币）。
+只要你按照要求配置，是不会产生费用的，顶多产生几美分的 CDN 费用（1 美分 = 0.07 人民币）。
 
 ![验证付款信息](https://pic.hackstory.cn/blog/gcp/xmninIEd.webp)
 

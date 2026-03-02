@@ -130,8 +130,9 @@ export default defineConfig({
             { text: '搭建图床', link: '/blog/tutorial/imgbed' },
             // { text: '让 Favicon 适配主题', link: '/blog/tutorial/favicon' },
             // { text: '介绍一下 Apple Creator Studio', link: '/blog/tutorial/apple-creator-studio' },
-            { text: '搭建个人域名邮箱', link: '/blog/tutorial/email' },
-            { text: '配置谷歌云 VPS', link: '/blog/tutorial/google-cloud' }
+            { text: '搭建域名邮箱', link: '/blog/tutorial/email' },
+            { text: '配置谷歌云服务器', link: '/blog/tutorial/google-cloud' },
+            { text: 'OpenClaw 部署教程', link: '/blog/tutorial/openclaw' }
           ]
         }
       ]
