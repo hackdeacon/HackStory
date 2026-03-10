@@ -132,7 +132,8 @@ export default defineConfig({
             // { text: '介绍一下 Apple Creator Studio', link: '/blog/tutorial/apple-creator-studio' },
             { text: '搭建域名邮箱', link: '/blog/tutorial/email' },
             { text: '配置谷歌云服务器', link: '/blog/tutorial/google-cloud' },
-            { text: 'OpenClaw 部署教程', link: '/blog/tutorial/openclaw' }
+            { text: 'OpenClaw 部署教程', link: '/blog/tutorial/openclaw' },
+            { text: '认识一下 Cloudflare', link: '/blog/tutorial/cloudflare' }
           ]
         }
       ]
