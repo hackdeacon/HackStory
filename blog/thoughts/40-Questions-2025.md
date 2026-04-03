@@ -36,7 +36,7 @@
 
 - 个人站点上线：<https://hackdeacon.cn>
 
-<img src="https://pic.hackstory.cn/blog/TQgCddph.jpg" width="50%" />
+<img src="https://pic.hackstory.cn/blog/TQgCddph.jpg" width="50%" loading="lazy" />
 
 ## 02. 你实现新年愿望了吗？
 

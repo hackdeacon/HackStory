@@ -12,6 +12,10 @@ export default defineConfig({
   head: [
     ['link', { rel: 'icon', href: '/hackstory.webp' }],
     ['link', { rel: 'apple-touch-icon', href: '/hackstory.webp' }],
+    ['link', { rel: 'preconnect', href: 'https://img.hackdeacon.cn' }],
+    ['link', { rel: 'preconnect', href: 'https://pic.hackstory.cn' }],
+    ['link', { rel: 'dns-prefetch', href: 'https://img.hackdeacon.cn' }],
+    ['link', { rel: 'dns-prefetch', href: 'https://pic.hackstory.cn' }],
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
     ['meta', { name: 'twitter:site', content: '@hackdeacon' }],
     ['meta', { name: 'twitter:title', content: 'HackStory' }],
@@ -67,19 +71,19 @@ export default defineConfig({
           text: '作品集',
           collapsed: false,
           items: [
-            { text: '汕头记忆', link: '/blog/creation/2' },
-            { text: '蓬中时光机', link: '/blog/creation/1' }
+            // { text: '汕头记忆', link: '/blog/creation/2' },
+            // { text: '蓬中时光机', link: '/blog/creation/1' }
           ]
         },
         {
           text: '摄影教程',
           collapsed: false,
           items: [
-            { text: '曝光', link: '/blog/creation/1' },
-            { text: '档位', link: '/blog/creation/2' },
-            { text: '焦段', link: '/blog/creation/3' },
-            { text: 'Raw', link: '/blog/creation/4' },
-            { text: '后期', link: '/blog/creation/5' },
+            // { text: '曝光', link: '/blog/creation/1' },
+            // { text: '档位', link: '/blog/creation/2' },
+            // { text: '焦段', link: '/blog/creation/3' },
+            // { text: 'Raw', link: '/blog/creation/4' },
+            // { text: '后期', link: '/blog/creation/5' },
           ]
         }
       ],
