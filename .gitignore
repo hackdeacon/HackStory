@@ -14,7 +14,6 @@ cache/
 
 # 锁文件（依赖管理工具）
 package-lock.json
-pnpm-lock.yaml
 yarn.lock
 
 # 编辑器和系统文件
